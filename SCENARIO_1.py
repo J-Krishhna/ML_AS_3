@@ -1,3 +1,4 @@
+print("Jaya Krishna G - 24BAD042")
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -74,3 +75,4 @@ residuals = y_test - y_pred
 plt.hist(residuals, bins=20)
 plt.title("Residual Distribution")
 plt.show()
+
