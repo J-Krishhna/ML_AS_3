@@ -1,3 +1,4 @@
+print("Jaya Krishna G - 24BAD042")
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -73,3 +74,4 @@ print("Ridge Regression")
 print("MSE:", mean_squared_error(y_test, y_ridge_pred))
 print("RMSE:", np.sqrt(mean_squared_error(y_test, y_ridge_pred)))
 print("R2:", r2_score(y_test, y_ridge_pred))
+
